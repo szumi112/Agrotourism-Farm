@@ -1,0 +1,961 @@
+   @import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500&display=swap');@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Sans 3', sans-serif;
+    
+}
+
+
+ul {
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+h1, h2 {
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+img {
+    width: 100%;
+}
+
+.navbar img {
+    width: 300px;
+    
+}
+
+.navbar {
+    color: #333;
+    height: 155px;
+    font-size: 20px;
+    margin: 10px 0;
+    padding-top: 25px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar a {
+    color:#333;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.navbar a:hover {
+    border-bottom: 2px #276b12 solid;
+    color: #276b12 ;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+    overflow: hidden;
+}
+
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.header {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.header h1 {
+    font-size: 4em;
+}
+
+.header h3 {
+    font-weight: normal;
+    font-size: 2em;
+}
+
+.header button {
+    padding: 12px 21px;
+    border: none;;
+    border-radius: 5px;
+    background-color: #eb5f27;
+    color: white;
+    font-size: 1.3em;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.header button:hover {
+    background-color: rgb(255, 139, 118);
+}
+
+.mini-gallery {
+    display: flex;
+    justify-content: space-around;
+    margin: 125px 0 40px 0;
+    text-align: center;
+}
+
+.mini-gallery img {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+
+.oferta h1 {
+    padding: 40px 0;
+}
+
+.oferta p {
+    font-size: 1.3em;
+}
+
+.button-more-about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 155px;
+}
+
+.button-more-about button {
+    padding: 12px 21px;
+    border: none;;
+    border-radius: 5px;
+    background-color: #257c33;
+    color: white;
+    font-size: 1.3em;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.button-more-about button:hover {
+    background-color: rgb(146, 206, 87);
+}
+
+.map {
+    position: relative;
+    width: 100%;
+}
+
+.map h1 {
+    position: absolute;
+    top: 20%;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+    font-size: 3.5vw
+
+}
+
+.map .bgshadow {
+    background-color: rgba(38, 92, 45, 0.5);
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px 25px;
+    text-shadow: 2px 2px rgb(88, 116, 90);
+}
+
+
+.benefits {
+    margin: 125px 0;
+}
+
+.benefits h1 {
+    text-align: center;
+}
+
+.benefits hr {
+    width: 15%;
+    margin: 30px 0 45px 428px;
+}
+
+.benefits p {
+    font-size: 1.3em;
+}
+
+.benefits i {
+    margin: 25px 25px 25px 0;
+    font-size: 1.2em;
+
+}
+
+.buttoncenter {
+    text-align: center;
+    margin: 22px 0;
+}
+
+.benefits button {
+    padding: 12px 21px;
+    border: none;;
+    border-radius: 5px;
+    background-color: #eb5f27;
+    color: white;
+    font-size: 1.3em;
+    margin-top: 50px;
+    cursor: pointer;
+
+}
+
+.benefits button:hover {
+    background-color: rgb(255, 139, 118);
+}
+
+
+.footer {
+    /* background-color: rgb(12, 116, 38); 
+    color: rgb(253, 255, 240); */
+    color: #000;
+    margin: 0;
+    padding: 0 100px 50px 100px;
+    text-align: center;
+}
+
+.footer .left {
+    width: 429px;
+    text-align: left;
+}
+
+.footer h1 {
+    padding: 50px;
+}
+
+.footer h1 {
+    position: relative;
+    width: 700px;
+    text-align: center;
+    margin: 50px auto;
+    
+}
+
+.footer h1::before {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #4ea017;
+
+    position: absolute;
+    left:0px;
+    top: 50%;
+    opacity: 50%;
+
+}
+
+.footer h1::after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #4ea017;
+
+    position: absolute;
+    right:0px;
+    top: 50%;
+    opacity: 50%;
+
+}
+
+.footer i {
+    font-size: 1.4em;
+    margin-right: 25px;
+}
+
+.footer li {
+    padding: 35px 0;
+    line-height: 30px;
+}
+
+.madeby {
+    background-color: rgb(8, 82, 27);
+    color: rgb(128, 165, 133);
+    text-align: left;
+    padding: 20px 150px;
+    margin-top: 35px;
+}
+
+
+.madeby ul {
+    display: flex;
+}
+
+.madeby a {
+    padding: 10px;
+    margin: 0 5px;
+    color: rgb(128, 165, 133);
+}
+
+.madeby a:hover {
+    border-bottom: 2px #a0ca93 solid;
+    color: white;
+}
+
+
+/* pokoje */
+
+
+
+.pokoje-oferta {
+    margin: 10em 0 2em 0;
+}
+
+.pokoje-oferta h1 {
+    font-size: 2.6em;
+    color: rgb(17, 83, 17);
+    margin-top: 0;
+}
+
+.pokoje-oferta li {
+    line-height: 2em;
+}
+
+.pokoje-oferta h5 {
+    line-height: 2em;
+    margin: 1.5em 0;
+    font-size: 1.05em;
+    color:rgb(0, 0, 0);
+}
+
+.first-offer {
+    display: flex;
+    justify-content:space-between;
+    flex: 1;
+    margin: 5em 0em; 
+}
+
+.first-offer-summary {
+    margin-left: 5em;
+}
+
+.first-offer img {
+    margin-top: 2em;
+}
+
+
+.first-offer-summary p {
+    line-height: 3.5em;
+}
+
+.first-offer-summary h3 {
+    color:#eb5f27;
+    font-size: 1.5em;
+    margin-top: 3.5em;
+}
+
+.second-offer {
+    display: flex;
+    justify-content: stretch;
+    margin: 0em 0em;
+    padding-top: 3em;
+    width: 100%;
+}
+
+.second-offer img {
+    margin-top: 0;
+    margin-left: 3em;
+    width: 100%;
+}
+
+.second-offer-summary {
+    margin: 5em 0 0 0;
+}
+
+.second-offer-summary p {
+    line-height: 3.5em;
+}
+
+.second-offer-summary h3 {
+    color:#eb5f27;
+    font-size: 1.5em;
+    margin-top: 5.5em;
+}
+
+.lightfont {
+    font-weight: normal;
+}
+
+.picture {
+    max-width: 1100px;
+    margin: 50px auto 125px;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+
+}
+
+.textpos { 
+    position: absolute;
+    top:20px;
+    left: 200px;
+    color:rgb(255, 247, 238);
+
+    
+}
+
+
+/* kontakt */
+
+.custom .fa-circle:before {
+    border-radius: 50%;
+    background: linear-gradient(red, blue);
+    color: transparent;
+  }
+
+  .gridkontakt {
+      display: flex;
+      justify-content: space-around;
+      margin: 125px auto;
+      text-align: center;
+  }
+
+  .gridkontakt h3 {
+      margin: 30px auto;
+      color:#4ea017;
+  }
+
+
+  .gridkontakt img {
+      max-width: 125px;
+  }
+
+  /* media queries - responsive design */
+
+  @media (min-width: 780px) and (max-width: 1100px) {
+
+    .container, .footer {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar {
+        padding: 0 50px;
+    }
+
+    .madeby {
+        margin-top: 75px;
+    }
+
+    .benefits {
+        padding-inline: 50px;
+    }
+
+    .pokoje-oferta {
+        text-align: center;
+        margin-top: 175px;
+    }
+
+    .benefits hr {
+        display: flex;
+        justify-content: space-around;
+        margin: 30px auto 120px;
+    }
+
+    .right {
+        padding: 0 25px 0 15px;
+    }
+
+    .left {
+        padding: 0 15px 0 25px;
+    }
+
+    .map h1 {
+        font-size: 5vw;
+    }
+
+    .pokoje-oferta br {
+        height: 50px;
+    }
+
+    .first-offer-summary {
+        margin: 2em 2em 0 0;
+    }
+
+  }
+
+  @media (min-width: 780px) and (max-width: 1000px) {
+    iframe { width: 400px;
+    }
+  }
+
+  @media (min-width: 780px) and (max-width: 1050px) {
+    .pokoje-oferta {
+        width: 100%;
+        margin: 175px 0 0 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .pokoje-oferta h1 {
+        font-size: 4vw;
+    }
+
+    .first-offer-summary {
+        margin: 2em 3em 0 0;
+        padding: 0;
+    }
+  }
+
+  @media (min-width: 780px) and (max-width: 1000px) {
+    .first-offer-summary {
+        margin: 2em 1em 0 0;
+        padding: 0;
+    }
+
+    .second-offer-summary {
+        margin-left: 1em;
+    }
+
+    .pokoje-oferta h3 {
+        margin-top: 1.5em;
+    }
+
+    .benefits i {
+        margin: 25px 5px 25px 0;
+        font-size: 1em;
+    }
+
+    .benefits p {
+        font-size: 1.1em;
+    }
+
+    .header h1 {
+        font-size: 7vw;
+    }
+
+
+  }
+
+  @media (min-width: 780px) {
+      .zapraszamy {
+          display: none;
+      }
+
+      
+  }
+
+  @media (max-width: 779px) {
+      .container {
+          width: 100%;
+          margin: 0 auto 7em;
+          padding: 0;
+      }
+      .navbar {
+          height: 185px;
+      }
+      .navbar {
+          flex-direction: column;
+      }
+
+      .navbar img {
+          width: 225px;
+      }
+
+      .header h1 {
+          font-size: 8vw;
+      }
+
+      .map h1 {
+          font-size: 6vw;
+      }    
+      
+      .benefits hr {
+        display: flex;
+        justify-content: space-around;
+        margin: 30px auto 120px;
+    }
+
+    .benefits .flex {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footer .flex {
+        flex-direction: column;
+    }
+
+    iframe {
+        width: 500px;
+    }
+
+    .mini-gallery {
+        flex-direction: column;
+    }
+
+    .ofertaa p {
+        margin: 0 0 125px 0;
+    }
+
+    .map {
+        position: relative;
+        margin-bottom: 700px;
+    }
+
+    .map img {
+        height: 400px;
+        width: 900px;
+        position: absolute;
+        left: -100px;
+    }
+
+    .map h1 {
+        position: absolute;
+        top: 50px;
+    }
+
+    .benefits {
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+
+    .benefits i {
+        margin: 25px 25px 25px 0;
+    }
+
+
+    .benefits hr {
+        margin-bottom: 4em;
+    }
+
+    .footer h1 {
+        display: none;
+        
+    }   
+
+    .footer h2 {
+        margin: 15px 0 5em 0;
+    }
+
+    .first-offer {
+        flex-direction: column;
+    }
+
+    .first-offer-summary {
+        margin: 75px 0 0 0;
+    }
+
+    .second-offer {
+        flex-direction: column-reverse;
+        margin: 0;
+        padding: 0;
+    }
+
+    .second-offer img {
+        margin: 0;
+    }
+
+    .second-offer-summary {
+        margin: 0 0 0em 0;
+        padding-top: 0;
+    }
+
+    .first-offer-summary h3 {
+        margin: 3em 0 0;
+        padding: 0;
+    }
+
+
+    .second-offer-summary h3 {
+        margin: 3em 0;
+    }
+
+    .footer  .left {
+        text-align: center;
+    }
+
+    .footer .flex {
+        flex-direction: column-reverse;
+    }
+
+    .left {
+        margin: 3em 0 1em;
+    }
+
+    .madeby {
+        padding: 20px ;
+    }
+
+    .madeby span {
+        display: none;
+    }
+
+    .pokoje-oferta {
+        text-align: center;
+    }
+
+    .header {
+        width: 95%;
+    }
+    
+    .gridkontakt {
+        flex-direction: column;
+    }
+
+    .gridkontakt h3 {
+        margin-top: 3em;
+    }
+
+    .gridkontakt img {
+        margin-top: 5em;
+    }
+
+    .picture {
+        overflow: hidden;
+    }
+
+    .picture img {
+        height: 350px;
+        width: 900px;
+    }
+
+    .gridkontakt p {
+        font-size: 1.2em;
+    }
+
+    .gridemail, .gridaddress {
+        margin-top: 3em;
+    }
+
+    .highlight {
+        font-size: 5vw;
+    }
+
+    #lifirstfooter {
+        font-size: 1.5em;
+    }
+
+
+
+  }
+
+  @media (max-width: 600px) {
+    .footer iframe {
+        width: 400px;
+    }
+
+    .footer {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .madeby {
+        padding: 20px 10px;
+    }
+
+    .madeby p, .madeby li {
+        font-size: 1em;
+    }
+
+    .madeby a {
+        padding: 0;
+    }
+
+    .madeby spaN {
+        display: none;
+    }
+
+    
+  }
+
+  @media (min-width:320px) and (max-width:400px ) {
+      .map h1 {
+          line-height: 3em;
+          font-size: 8.5vw;
+      }
+
+      .map .bgshadow {
+          padding: 0 0.2em;
+      }
+
+      .map img {
+          left: -45%;
+      }
+
+      .footer {
+          width: 100%;
+          text-align: center;
+          margin: 0;
+          padding: 0;
+      }
+
+      .footer .left {
+          padding: 0;
+      }
+
+      .footer iframe {
+          width: 270px;
+      }
+
+      .footer h2 {
+          margin-bottom: 4em;
+      }
+
+      #lifirstfooter {
+          margin: 0 auto;
+      }
+
+      .gridkontakt {
+        margin-top: 0;
+    }
+  }
+
+@media (max-width: 450px) {
+    .picture {
+        position: relative;
+        height: 450px;
+        margin-bottom: 0;
+
+        overflow: hidden;
+    }
+    .picture img {
+        position: absolute;
+        left: -80%;
+    }
+
+    .madeby {
+        padding: 20px 10px;
+    }
+
+    .madeby p, .madeby li {
+        font-size: 0.8em;
+    }
+
+    .madeby a {
+        padding: 0;
+    }
+
+    .madeby spaN {
+        display: none;
+    }
+
+    .footer {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer iframe { 
+        width: 355px;
+    }
+
+    .footer .left {
+        width: 90%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #lifirstfooter {
+        margin: 4em 0 2em;
+        padding: 0;
+    }
+
+
+
+
+    .container {
+        margin-bottom: 5em;
+    }
+
+
+}
+
+@media (max-width: 360px) {
+
+    .navbar {
+        height: 250px;
+    }
+    .navbar a {
+        padding: 5px;
+        background-color:rgb(60, 102, 19);
+        color: rgb(236, 253, 230);
+        border-radius: 8px;
+        font-size: 0.9em;
+    }
+
+    .navbar a:hover {
+        background-color: white;
+        color:rgb(8, 82, 27);
+    }
+
+    .navbar ul {
+        margin: 4.5em auto;
+    }
+
+    .header h1 {
+        font-size: 2.5em;
+        margin: 0.5em 0;
+    }
+
+    .map img {
+        left: -60%;
+    }
+    
+    .footer iframe {
+        max-width: 320px;
+    }
+
+    .highlight {
+        font-size: 0.7em;
+
+    }
+
+    .gridkontakt {
+        margin-top: 0;
+    }
+
+    .footer .left {
+        margin-bottom: 3em;
+    }
+
+    .madeby p {
+        display: none;
+    }
+
+    .madeby ul {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .madeby li {
+        padding: 0 10px;
+    }
+
+}
+
+
+@media (max-width: 340px) {
+    .footer iframe {
+        width: 295px;
+    }
+}
+
+@media (min-width:780px ) and (max-width:1100px) {
+    .madeby {
+        width: 100%;
+        padding: 20px ;
+    }
+}
